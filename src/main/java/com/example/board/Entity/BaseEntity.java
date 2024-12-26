@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public abstract class BaseEntity {
-    @Column(name = "regdate" , nullable = false, updatable = false)
+    @Column(name = "regDate" , nullable = false, updatable = false)
     @CreatedDate // 레코드 생성시 적용
     private LocalDateTime regDate;  // 날짜와 시간
 
